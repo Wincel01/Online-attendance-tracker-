@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard - Attendance Tracker</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Teacher Dashboard</h1>
+        <h2>Mark Attendance</h2>
+        <form>
+            <input type="text" name="studentId" placeholder="Student ID" required><br>
+
+            <select name="status" required>
+                <option value="present">Present</option>
+                <option value="absent">Absent</option>
+            </select><br>
+
+            <textarea name="reason" placeholder="Reason for absence (if any)"></textarea><br>
+
+            <button type="submit">Mark Attendance</button>
+        </form>
+    </div>
+</body>
+</html>
